@@ -51,5 +51,6 @@ df = pd.read_csv("https://raw.githubusercontent.com/juanpa129/Clase/main/Grafica
 df
 import plotly.express as px
 fig = px.bar(df,x="Grado de inseguridad alimentarias",y=["2018","2020"])
+st.subheader("Inseguridad alimentaria en México")
 st.write(fig)
-st.write("Inseguridad alimentaria en México")
+
