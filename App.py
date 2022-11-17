@@ -52,3 +52,4 @@ df
 import plotly.express as px
 fig = px.bar(df,x="Grado de inseguridad alimentarias",y=["2018","2020"])
 st.write(fig)
+st.write("Inseguridad alimentaria en México")
